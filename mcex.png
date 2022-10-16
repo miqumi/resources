@@ -1,0 +1,5 @@
+@echo off
+set /p "target=which file you wanna extract: "
+unzip -qq -o -d %target%extracted %target%
+echo Extracted %target% into a folder
+echo called %target%
